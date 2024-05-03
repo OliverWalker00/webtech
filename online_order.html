@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Order - Web Restaurant</title>
+    <link rel="stylesheet" href="order-style.css">
+</head>
+<body>
+    <header>
+        <h1>Online Order</h1>
+    </header>
+    <form class="order-form">
+        <h2>Select your dishes:</h2>
+        <div class="menu-item">
+            <input type="checkbox" id="spaghetti" name="dish" value="Spaghetti Bolognese">
+            <label for="spaghetti">Spaghetti Bolognese</label>
+        </div>
+        <div class="menu-item">
+            <input type="checkbox" id="pizza" name="dish" value="Pizza">
+            <label for="pizza">Pizza</label>
+        </div>
+        <div class="menu-item">
+            <input type="checkbox" id="carbonara" name="dish" value="Carbonara">
+            <label for="carbonara">Carbonara</label>
+        </div>
+        <div class="menu-item">
+            <input type="checkbox" id="chicken-parm" name="dish" value="Chicken Parm">
+            <label for="chicken-parm">Chicken Parm</label>
+        </div>
+
+        <h2>Delivery Address:</h2>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+        </div>
+        <button type="submit">Place Order</button>
+    </form>
+</body>
+</html>
